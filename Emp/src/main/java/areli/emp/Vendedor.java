@@ -12,7 +12,7 @@ import java.util.TreeSet;
  *
  * @author asortega
  */
-
+public class Vendedor {
     int vId = 0;
     //int nuevoId = ultimoId + 1;
     int vActual;
