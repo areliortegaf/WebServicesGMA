@@ -12,7 +12,6 @@ import java.util.TreeSet;
  *
  * @author asortega
  */
-public class Vendedor implements Comparable<Empleado> {
 
     int vId = 0;
     //int nuevoId = ultimoId + 1;
@@ -73,14 +72,12 @@ public class Vendedor implements Comparable<Empleado> {
         mostrarListaEmpleados();
     }
 
-    @Override
     public int compareTo(Empleado e) {
         if (vActual.equals(e.id_emp)) {//<--
             return 1;
         } else {
             return 0;
         }
-    }
 
     public static void main(String[] args) {
         new Vendedor();
